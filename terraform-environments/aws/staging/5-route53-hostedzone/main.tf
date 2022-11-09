@@ -1,6 +1,6 @@
 locals {
   aws_region  = "us-east-1"
-  domain_name = "k8s.staging.swdemo.com"
+  domain_name = "k8s.staging.swdemo.net"
   tags = {
     ops_env              = "staging"
     ops_managed_by       = "terraform",
